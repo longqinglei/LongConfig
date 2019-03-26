@@ -13,7 +13,7 @@
 		344E4F8B224A347B0045A29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 344E4F8A224A347B0045A29B /* Assets.xcassets */; };
 		344E4F8E224A347B0045A29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 344E4F8C224A347B0045A29B /* LaunchScreen.storyboard */; };
 		344E4F91224A347B0045A29B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 344E4F90224A347B0045A29B /* main.m */; };
-		344E4F9A224A349E0045A29B /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 344E4F99224A349E0045A29B /* Tool.m */; };
+		344E4F9E224A3AC50045A29B /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 344E4F9C224A3AC50045A29B /* Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		344E4F8D224A347B0045A29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		344E4F8F224A347B0045A29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		344E4F90224A347B0045A29B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		344E4F98224A349E0045A29B /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
-		344E4F99224A349E0045A29B /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		344E4F9C224A3AC50045A29B /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		344E4F9D224A3AC50045A29B /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 		344E4F75224A347B0045A29B = {
 			isa = PBXGroup;
 			children = (
-				344E4F97224A34830045A29B /* Config */,
+				344E4F9B224A3AC50045A29B /* LongConfigs */,
 				344E4F80224A347B0045A29B /* LongConfig */,
 				344E4F7F224A347B0045A29B /* Products */,
 			);
@@ -75,13 +75,13 @@
 			path = LongConfig;
 			sourceTree = "<group>";
 		};
-		344E4F97224A34830045A29B /* Config */ = {
+		344E4F9B224A3AC50045A29B /* LongConfigs */ = {
 			isa = PBXGroup;
 			children = (
-				344E4F98224A349E0045A29B /* Tool.h */,
-				344E4F99224A349E0045A29B /* Tool.m */,
+				344E4F9C224A3AC50045A29B /* Tool.m */,
+				344E4F9D224A3AC50045A29B /* Tool.h */,
 			);
-			path = Config;
+			path = LongConfigs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +157,7 @@
 				344E4F86224A347B0045A29B /* ViewController.m in Sources */,
 				344E4F91224A347B0045A29B /* main.m in Sources */,
 				344E4F83224A347B0045A29B /* AppDelegate.m in Sources */,
-				344E4F9A224A349E0045A29B /* Tool.m in Sources */,
+				344E4F9E224A3AC50045A29B /* Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
